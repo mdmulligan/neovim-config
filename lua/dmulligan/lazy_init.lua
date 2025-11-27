@@ -12,6 +12,6 @@ end
 vim.opt.rtp:prepend(lazyPath)
 
 require("lazy").setup({
-    spec = "glek.lazy",
+    spec = "dmulligan.lazy",
     change_detection = { notify = false },
 })
